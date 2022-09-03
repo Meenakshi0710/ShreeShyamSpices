@@ -46,6 +46,10 @@
     "eject": "react-scripts eject",
     "both": "concurrently \"npm run start\" \"cd.. && nodemon index.js\""
   },
+  "engines": {
+    "node": "v16.15.1",
+    "npm": "8.11.0"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
