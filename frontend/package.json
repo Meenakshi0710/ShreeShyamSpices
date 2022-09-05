@@ -15,8 +15,6 @@
     "axios": "^0.27.2",
     "chart.js": "^3.8.0",
     "country-state-city": "^3.0.1",
-    "google-map-react": "^2.1.10",
-    "google-maps-react": "^2.0.6",
     "jquery": "^3.6.0",
     "react": "^18.0.0",
     "react-alert": "^7.0.3",
