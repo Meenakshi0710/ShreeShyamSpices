@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {
@@ -17,8 +17,7 @@ const options = {
   transition: transitions.SCALE
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+ReactDOM.render(
   
   <Provider store = {store}>
   <AlertProvider template={AlertTemplate} {...options}>
@@ -26,7 +25,8 @@ root.render(
     <App />
     </Router>
     </AlertProvider>
-    </Provider>
+    </Provider>,
+    document.getElementById('root')
  
 );
 
