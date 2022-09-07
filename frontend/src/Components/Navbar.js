@@ -20,7 +20,7 @@ const hideNavbar = () =>{
       <nav className={scroll ? "navbar navbar-expand-lg navbar-dark fixed-top bg-scroll" : "navbar navbar-expand-lg navbar-dark fixed-top"} >
   <div className="container-fluid">
     
-      <img src="../public/Data/Images/logo.jpg" alt="" width="120" height="104"/>
+      <img src="public/Data/Images/logo.jpg" alt="" width="120" height="104"/>
       <button className="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" ></span>
     </button>
