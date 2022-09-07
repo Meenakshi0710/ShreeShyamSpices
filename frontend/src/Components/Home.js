@@ -34,7 +34,7 @@ const Home = () => {
               </div>
               <div className='col-md-4'>
               <div className='card shadow h-100'>
-              <img src="../public/Data/images/MAchinery/clean.jpg" className="w-100 border-bottom" alt="Cleaning"/>
+              <img src="Data/Images/MAchinery/clean.png" className="w-100 border-bottom" alt="Cleaning"/>
               <div className='card-body'>
                 <h6>Cleaning</h6>
                 <div className='underline'></div>
@@ -46,7 +46,7 @@ const Home = () => {
 
               <div className='col-md-4'>
               <div className='card shadow h-100'>
-              <img src="../public/Data/images/MAchinery/grading.jpg" className="w-100 border-bottom" alt="Grading"/>
+              <img src="Data/Images/MAchinery/grading.png" className="w-100 border-bottom" alt="Grading"/>
               <div className='card-body'>
                 <h6>Grading</h6>
                 <div className='underline'></div>
@@ -58,7 +58,7 @@ const Home = () => {
 
               <div className='col-md-4'>
               <div className='card shadow h-100'>
-              <img src="../public/Data/images/MAchinery/packing.jpg" className="w-100 border-bottom" alt="Packaging"/>
+              <img src="Data/Images/MAchinery/packing.png" className="w-100 border-bottom" alt="Packaging"/>
               <div className='card-body'>
                 <h6>Packaging</h6>
                 <div className='underline'></div>
@@ -105,7 +105,7 @@ delivery schedules with our logistic partners.</p>
   <div className="col">
     <Link to = "/products">
     <div className="card h-100 productCard">
-      <img src="../public/Data/images/Products/shyam.jpg" className="card-img-top" alt="..."/>
+      <img src="Data/Images/Products/shyam.png" className="card-img-top" alt="..."/>
      
     </div>
     </Link>
@@ -113,7 +113,7 @@ delivery schedules with our logistic partners.</p>
   <div className="col">
     <Link to = "/products">
     <div className="card h-100 productCard">
-      <img src="../public/Data/images/Products/shyamajwain.jpg" className="card-img-top" alt="..."/>
+      <img src="Data/Images/Products/shyamajwain.png" className="card-img-top" alt="..."/>
       
     </div>
     </Link>
@@ -121,7 +121,7 @@ delivery schedules with our logistic partners.</p>
   <div className="col">
     <Link to= "/products">
     <div className="card h-100 productCard">
-      <img src="../public/Data/images/Products/khushboo.jpg" className="card-img-top" alt="..."/>
+      <img src="Data/Images/Products/khushboo.png" className="card-img-top" alt="..."/>
      
     </div>
     </Link>
@@ -129,7 +129,7 @@ delivery schedules with our logistic partners.</p>
   <div className="col">
     <Link to="/products">
     <div className="card h-100 productCard">
-      <img src="../public/Data/images/Products/rajdhani.jpg" className="card-img-top" alt="..."/>
+      <img src="Data/Images/Products/rajdhani.png" className="card-img-top" alt="..."/>
      
     </div>
     </Link>
@@ -151,7 +151,7 @@ delivery schedules with our logistic partners.</p>
             </div>
             <div className='row'>
   <div className="col-md-3 text-center">
-      <img src="../public/Data/images/Icons/quality.png" className="iconCardimg" alt="..."/>
+      <img src="Data/Images/Icons/quality.png" className="iconCardimg" alt="..."/>
       <div className='card-body'>
                 <h4>Premium <strong>Quality</strong></h4>
                 
@@ -163,7 +163,7 @@ delivery schedules with our logistic partners.</p>
   
   
   <div className="col-md-3 text-center">
-      <img src="../public/Data/images/Icons/machinery.png" className="iconCardimg" alt="..."/>
+      <img src="Data/Images/Icons/machinery.png" className="iconCardimg" alt="..."/>
       <div className='card-body'>
                 <h4>High-Tech <strong>Machinery</strong></h4>
                 
@@ -174,7 +174,7 @@ delivery schedules with our logistic partners.</p>
   
   
   <div className="col-md-3 text-center">
-      <img src="../public/Data/images/Icons/worker.png" className="iconCardimg" alt="..."/>
+      <img src="Data/Images/Icons/worker.png" className="iconCardimg" alt="..."/>
       <div className='card-body'>
                 <h4>Skilled <strong>Workers</strong></h4>
                 
@@ -185,7 +185,7 @@ delivery schedules with our logistic partners.</p>
   
   
   <div className="col-md-3 text-center">
-      <img src="../public/Data/images/Icons/delivery-truck.png" className="iconCardimg" alt="..."/>
+      <img src="Data/Images/Icons/delivery-truck.png" className="iconCardimg" alt="..."/>
       <div className='card-body'>
                 <h4>Optimal <strong>Delivery</strong></h4>
                 
