@@ -45,7 +45,7 @@ const Productslider = () => {
       <div className='productCardColor'>
       <Link className= "text-decoration-none text-reset" to = "/products/jeera">
         <div className='card shadow h-100'>
-              <img src="Data/images/Products/cumin.png" className="w-100 border-bottom" alt="Cleaning"/>
+              <img src="Data/Images/Products/cumin.png" className="w-100 border-bottom" alt="Cleaning"/>
               <div className='card-body'>
                 <h6 className='text-center'>Cumin Seeds</h6>
                 
@@ -56,7 +56,7 @@ const Productslider = () => {
               <div className='productCardColor'>
               <Link className= "text-decoration-none text-reset" to = "/products/ajwain">
               <div className='card shadow h-100'>
-              <img src="Data/images/Products/carom.png" className="w-100 border-bottom" alt="Cleaning"/>
+              <img src="Data/Images/Products/carom.png" className="w-100 border-bottom" alt="Cleaning"/>
               <div className='card-body'>
                 <h6 className='text-center'>Carom Seeds</h6>
                 
@@ -67,7 +67,7 @@ const Productslider = () => {
               <div className='productCardColor'>
               <Link className= "text-decoration-none text-reset" to = "/products/saunf">
               <div className='card shadow h-100'>
-              <img src="Data/images/Products/fennel.png" className="w-100 border-bottom" alt="Cleaning"/>
+              <img src="Data/Images/Products/fennel.png" className="w-100 border-bottom" alt="Cleaning"/>
               <div className='card-body'>
                 <h6 className='text-center'>Fennel Seeds</h6>
                 
@@ -78,7 +78,7 @@ const Productslider = () => {
               <div className='productCardColor'>
               <Link className= "text-decoration-none text-reset" to = "/products/rai">
               <div className='card shadow h-100'>
-              <img src="Data/images/Products/mustard.png" className="w-100 border-bottom" alt="Cleaning"/>
+              <img src="Data/Images/Products/mustard.png" className="w-100 border-bottom" alt="Cleaning"/>
               <div className='card-body'>
                 <h6 className='text-center'>Mustard seeds</h6>
                 
@@ -89,7 +89,7 @@ const Productslider = () => {
               <div className='productCardColor'>
               <Link className= "text-decoration-none text-reset" to = "/products/dhaniya">
               <div className='card shadow h-100'>
-              <img src="Data/images/Products/coriander.png" className="w-100 border-bottom" alt="Cleaning"/>
+              <img src="Data/Images/Products/coriander.png" className="w-100 border-bottom" alt="Cleaning"/>
               <div className='card-body'>
                 <h6 className='text-center'>Coriander Seeds</h6>
                 
@@ -100,7 +100,7 @@ const Productslider = () => {
               <div className='productCardColor'>
               <Link className= "text-decoration-none text-reset" to = "/products/methi">
               <div className='card shadow h-100'>
-              <img src="Data/images/Products/fenugreek.png" className="w-100 border-bottom" alt="Cleaning"/>
+              <img src="Data/Images/Products/fenugreek.png" className="w-100 border-bottom" alt="Cleaning"/>
               <div className='card-body'>
                 <h6 className='text-center'>Fenugreek</h6>
                 
