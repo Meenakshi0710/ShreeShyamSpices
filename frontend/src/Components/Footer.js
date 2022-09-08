@@ -27,12 +27,12 @@ const Footer = () => {
                 <div className='col-md-3'>
                     <h5>Products</h5>
                     <div className='underline mb-5'></div>
-                    <div><Link to = "/">Cumin seed</Link></div>
-                    <div><Link to = "/about">Carom seed</Link></div>
-                    <div><Link to = "/services">Fennel seed</Link></div>
-                    <div><Link to = "/">Fenugreek</Link></div>
-                    <div><Link to = "/">Coriander</Link></div>
-                    <div><Link to = "/contact">Mustard</Link></div>
+                    <div><Link to = "/products/jeera">Cumin seed</Link></div>
+                    <div><Link to = "/products/ajwain">Carom seed</Link></div>
+                    <div><Link to = "/products/saunf">Fennel seed</Link></div>
+                    <div><Link to = "/products/methi">Fenugreek</Link></div>
+                    <div><Link to = "/products/dhaniya">Coriander</Link></div>
+                    <div><Link to = "/products/rai">Mustard</Link></div>
                 </div>
 
                 <div className='col-md-3'>
