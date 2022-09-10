@@ -15,6 +15,13 @@ const Contactform = () => {
   const [mobile, setMobile] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const clearForm = () =>{
+    setName("");
+    setEmail("");
+    setMobile("");
+    setSubject("");
+    setMessage("");
+  }
     useEffect(() => {
       if (error) {
         alert.error(error);
@@ -37,7 +44,7 @@ const Contactform = () => {
     myForm.set("subject", subject);
     myForm.set("message", message);
     dispatch(createEnquiry(myForm));
-        
+       clearForm();
        
      }
     return (
@@ -47,26 +54,32 @@ const Contactform = () => {
       <div className="card-body">
         <h5 className="card-title text-center">Make an Enquiry</h5>
         <div className='underline mx-auto mb-5' ></div>
-        <div className="mb-3">
+        
         <div className='row'>
         <div className='col-md-6'>
+        <div className="mb-3">
   <label htmlFor="name" className="form-label">Name</label>
   <input type="name" className="form-control" id="name" name='name' value={name} onChange = {(e) => setName(e.target.value)}  minLength = {5} required/>
 </div>
+</div>
 <div className='col-md-6'>
+<div className="mb-3">
   <label htmlFor="email" className="form-label">Email address</label>
   <input type="email" className="form-control" id="email" name='email' value={email} onChange = {(e) => setEmail(e.target.value)} aria-describedby="emailHelp"/>
 </div>
 </div>
 </div>
 
-<div className="mb-3">
+
         <div className='row'>
         <div className='col-md-6'>
+        <div className="mb-3">
   <label htmlFor="mobile" className="form-label">Mobile</label>
   <input type="mobile" className="form-control" id="mobile" name='mobile' value={mobile} onChange = {(e) => setMobile(e.target.value)}  minLength = {10} required/>
 </div>
+</div>
 <div className='col-md-6'>
+<div className="mb-3">
   <label htmlFor="subject" className="form-label">Subject</label>
   <input type="subject" className="form-control" id="subject" name='subject' value={subject} onChange = {(e) => setSubject(e.target.value)}  minLength = {5} required/>
 </div>

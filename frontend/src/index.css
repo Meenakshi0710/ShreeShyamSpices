@@ -365,9 +365,7 @@ color : #4d774e;
   text-align: center;
   color: rgba(0, 0, 0, 0.548);
 }
-.contactData{
-  z-index: -1;
-}
+
 @media screen and (max-width: 600px) {
 
   .navbar-collapse{
