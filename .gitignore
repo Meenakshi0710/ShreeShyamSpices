@@ -10,7 +10,6 @@
 /frontend/coverage
 
 # production
-/frontend/build
 
 # misc
 /config/config.env
